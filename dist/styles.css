@@ -408,17 +408,19 @@ code {
   padding: 0.1rem 0.35rem;
   display: inline-flex;
   flex-direction: column;
-  background-color: rgba(0,0,0,0.05);
   width: auto;
   border-radius: 0.25rem;
-  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0,0,0,0.075);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 code.code-preview {
   width: 100%;
   border: 1px solid rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.8) !important;
+  color: rgba(255,255,255,0.9) !important;
   padding: 0.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0.4rem;
 }
 
 pre {
