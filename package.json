@@ -1,0 +1,35 @@
+{
+  "name": "simplywcag-css",
+  "version": "1.0.1",
+  "main": "dist/styles.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss src/styles.css -o dist/styles.css"
+  },
+  "keywords": [
+    "CSS",
+    "WCAG"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y4ch0/SimplyWCAG.css.git"
+  },
+  "author": "Yacho",
+  "license": "ISC",
+  "description": "Lightweight, easy to use and accessible CSS framework",
+  "bugs": {
+    "url": "https://github.com/y4ch0/SimplyWCAG.css/issues"
+  },
+  "homepage": "https://github.com/y4ch0/SimplyWCAG.css#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "postcss-cli": "^11.0.0"
+  },
+  "files": [
+    "dist/"
+  ],
+  "dependencies": {
+    "simplywcag-css": "^1.0.1"
+  }
+}
