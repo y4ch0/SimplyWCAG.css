@@ -1114,7 +1114,7 @@ ul.block-links li a p {
   border-radius: 0.25rem;
   font-size: 0.95rem;
   margin: 0.25rem;
-  display: inline-flex;
+  display: inline-block;
   background-color: rgba(0, 0, 0, 0.1);
 }
 
