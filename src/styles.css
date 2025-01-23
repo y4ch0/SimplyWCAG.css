@@ -223,6 +223,11 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 600;
 }
 
+h5,h6 {
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5)
+}
+
 /* Styl p */
 
 p {
@@ -482,6 +487,7 @@ footer.docs-footer .wrapper {
 footer .wrapper ul {
   width: 100%;
   display: flex;
+  flex-direction: row;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1146,6 +1152,7 @@ ul.block-links li a p {
 .tabs-box ul.tabs {
   width: 100%;
   display: flex;
+  flex-direction: row;
   padding: 0;
   margin: 0;
   list-style: none;
