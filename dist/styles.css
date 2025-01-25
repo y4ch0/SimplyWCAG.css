@@ -11,6 +11,10 @@
 
 /* Styl body */
 
+body,html {
+  overflow-x: hidden;
+}
+
 body {
   line-height: 1.5;
   font-size: 1rem;
@@ -98,6 +102,7 @@ nav {
   display: flex;
   position: sticky;
   top: 0;
+  overflow-x: hidden;
   z-index: 999;
   max-height: 4rem;
   height: 4rem;
