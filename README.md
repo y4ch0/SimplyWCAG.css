@@ -14,7 +14,7 @@ SimplyWCAG.css is a lightweight, easy to use, and accessible CSS framework for w
    Paste CDN link into `<head>` of the website
 
 ## Usage
-Read the [docs site]([https://simplywcagcss.com](https://y4ch0.github.io/SimplyWCAG.css-docs/)).
+Read the [docs site](https://y4ch0.github.io/SimplyWCAG.css-docs/)).
 
 ## License
 This project is licensed under CC BY-SA 4.0 license.
